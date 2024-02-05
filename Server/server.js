@@ -23,8 +23,8 @@ app.use('/api', userRoutes);
 app.use(express.static(path.join(__dirname, '../client/build')));
 
 
-app.get('/', function (req, res) { res.sendFile(path.join(__dirname, '../client/build/index.html')); });
-app.get('*', function (req, res) { res.sendFile(path.join(__dirname, '../client/build/index.html')); });
+app.get('/', function (req, res) { res.sendFile(path.join(__dirname, './build/index.html')); });
+app.get('*', function (req, res) { res.sendFile(path.join(__dirname, './build/index.html')); });
 
 
 app.listen(PORT, function () { console.log(`server is runnging on ${PORT}`) });
