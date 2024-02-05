@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Pretendard-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 101vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*:not(input):not(textarea) {
+  -webkit-touch-callout: default;
+  -webkit-user-select: unset !important;
+  -moz-user-select: unset !important;
+  -ms-user-select: unset !important;
+  -webkit-user-select: unset !important;
+  -moz-user-select: unset !important;
+  -ms-user-select: unset !important;
+  user-select: unset !important;
+}
+
+body * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--Gray-80);
+  font-size: 16px;
+  font-family: Pretendard-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+input {
+  width: 100%;
+  max-width: 500px;
+  height: 56px;
+  padding: 8px 24px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--Gray-20);
+
+}
+input::placeholder {
+  color: var(--Gray-40)
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid var(--Gray-40);
+}
+
+.container-wrap {
+  width: var(--site-width);
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4{
+  font-size: 24px;
+}
+
+
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
